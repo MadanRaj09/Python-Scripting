@@ -1,7 +1,7 @@
 # written by Madan Kumar A
 # practising the scripting and this program made me happy
 # clone this code or copy paste and execute it follow the intructions in command line arguments
-# Works on Linux OS
+# Works on Linux OS ,it outputs the requested number of files in the requested directory , the goal is to make it user friendly
 
 import sys
 import os
