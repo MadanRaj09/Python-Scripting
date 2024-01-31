@@ -5,7 +5,7 @@ word_to_search = "age"
 actual_sentence = "age : xx\n"
 
 ###########
-def modify_imp_file(file_path,word_to_search,modified_sentence):
+def modify_file(file_path,word_to_search,modified_sentence):
     with open(file_path,"r") as file:
         lines = file.readlines()
     with open(file_path,"w") as file:
@@ -23,7 +23,7 @@ def check_input():
    print(f"{y} is not a integer value")
  else:
   modified_sentence = actual_sentence.replace("xx", y)
-  modify_imp_file(file_path,word_to_search,modified_sentence)
+  modify_file(file_path,word_to_search,modified_sentence)
 
 check_input()
 
